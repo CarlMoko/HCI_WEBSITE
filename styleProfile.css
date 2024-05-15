@@ -1,0 +1,125 @@
+/* HOME SECTION */
+/* Background and Font */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.home{
+    padding-top: 0px;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(sbma_background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Logo */
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+/* Navigation Bar */
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height:3px;
+    width:0%;
+    background:#960000;
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    transition:0.5s;
+}
+.navbar ul li:hover::after{
+    width:100%;
+}
+
+.profileimage {
+    display: block;
+    margin: 0 auto;
+    border: solid black;
+    height: 650px;
+}
+
+.h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+/*picture sa baba*/
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .imagehead {
+    color: white;
+    margin-left: 10px;
+  }
+  .image3 {
+    border: 5px solid black;
+    height: 400px;
+    width: 400px;
+  }
+
+  .h3 {
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+  }
+  .p1 {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    display: block;
+  }
+  .p2 {
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 180px;
+  }
+  .p3 {
+    color: black;
+    font-size: x-large;
+    text-align: center;
+  }
+  .hhome {
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 120px;
+  }
